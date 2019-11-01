@@ -1,0 +1,13 @@
+[package]
+name = "backupkern"
+version = "0.1.0"
+authors = ["Lars Martens <lars.martens97@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+shellexpand = "1.0.0"
+serde = { version = "1.0.101", features = ["derive"] }
+serde_yaml = "0.8.11"
+walkdir = "2.2.9"
+chrono = "0.4.9"

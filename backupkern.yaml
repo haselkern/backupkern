@@ -1,0 +1,21 @@
+# Everything must be specified with absolute paths.
+
+# Copy from this location
+from: /home/lars/Desktop/input
+
+# Copy to these volumes
+# Only the first writeable location will be used.
+# Useful for having multiple drives you want to backup to.
+to:
+  - /run/media/lars/backup_drive
+  - /run/media/lars/alternative_backup_drive
+
+# The prefix for this backup
+# The backup folder will have the name toaster_2019-10-23_11-37-58 (year, month, day, hour, minute, second)
+prefix: toaster
+
+exclude:
+  # Exclude absolute paths
+  locations:
+    - /home/lars/.cache
+  patterns: # TODO
