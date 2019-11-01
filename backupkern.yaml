@@ -1,7 +1,7 @@
 # Everything must be specified with absolute paths.
 
 # Copy from this location
-from: /home/lars/Desktop/input
+from: /home/lars
 
 # Copy to these volumes
 # Only the first writeable location will be used.
